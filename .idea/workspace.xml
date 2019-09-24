@@ -4,12 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71612d5d-46f1-4ac2-b9fa-8c71437dc66f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/零基础轻松学Python/类和实例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/零基础轻松学Python/继承和多态.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/零基础轻松学Python/获取对象信息.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="71612d5d-46f1-4ac2-b9fa-8c71437dc66f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,12 +270,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568121319587</updated>
       <workItem from="1568121321053" duration="2478000" />
-      <workItem from="1569226116302" duration="6116000" />
+      <workItem from="1569226116302" duration="6715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8594000" />
+    <option name="totallyTimeSpent" value="9193000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,7 +288,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -301,7 +295,7 @@
       <window_info anchor="bottom" id="Inspection Results" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
