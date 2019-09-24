@@ -35,32 +35,42 @@ class Timer(object):
         print('Start...')
 
 
+class Husky(Dog):
+    def run(self):
+        print('Husky is running...')
+
+    def eat(self):
+        print('Husky is eating meat...')
+
+
 def run_twice(animal):
     animal.run()
     animal.run()
 
-dog = Dog()
-dog.run()
 
-cat = Cat()
-cat.run()
+if __name__ == "__main__":
+    dog = Dog()
+    dog.run()
 
-a = list()
-b = Animal()
-c = Dog()
+    cat = Cat()
+    cat.run()
 
-print(isinstance(a, list))
-print(isinstance(b, Animal))
-print(isinstance(c, Dog))
-print(isinstance(c, Animal))
+    a = list()
+    b = Animal()
+    c = Dog()
 
-dog.run_twice()
-cat.run_twice()
+    print(isinstance(a, list))
+    print(isinstance(b, Animal))
+    print(isinstance(c, Dog))
+    print(isinstance(c, Animal))
 
-tortoise = Tortoise()
+    dog.run_twice()
+    cat.run_twice()
 
-tortoise.run_twice()
+    tortoise = Tortoise()
 
-timer = Timer()
+    tortoise.run_twice()
 
-run_twice(timer)
+    timer = Timer()
+
+    run_twice(timer)
