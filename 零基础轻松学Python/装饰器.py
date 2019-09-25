@@ -12,4 +12,6 @@ def log(func):
 def now():
     print('2019-9-25')
 
-now()
+f = now
+
+f()
