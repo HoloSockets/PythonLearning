@@ -115,20 +115,31 @@ data.sample(10)
 # plt.legend()
 # plt.show()
 
-# Numpy中计算分位数
-x = [1, 3, 10, 15, 18, 20, 21, 23, 40]
-print(np.quantile(x, [0.25, 0.5, 0.75]))
-x = [1, 3, 10, 15, 18, 20, 23, 40]
-print(np.quantile(x, [0.25, 0.5, 0.75]))
+# # Numpy中计算分位数
+# x = [1, 3, 10, 15, 18, 20, 21, 23, 40]
+# print(np.quantile(x, [0.25, 0.5, 0.75]))
+# x = [1, 3, 10, 15, 18, 20, 23, 40]
+# print(np.quantile(x, [0.25, 0.5, 0.75]))
+#
+# # Pandas中计算分位数
+# x = [1, 3, 10, 15, 18, 20, 21, 23, 40]
+# s = pd.Series(x)
+# print(s.describe())
+# print(s.describe()[4])
+# print(s.describe()['25%'])
+# print(s.describe().iloc[4])
+# print(s.describe().loc['25%'])
+# print(s.describe().ix[4])
+# print(s.describe().ix['25%'])
 
-# Pandas中计算分位数
-x = [1, 3, 10, 15, 18, 20, 21, 23, 40]
-s = pd.Series(x)
-print(s.describe())
-print(s.describe()[4])
-print(s.describe()['25%'])
-print(s.describe().iloc[4])
-# print(s.describe()loc['25%'])
-print(s.describe().ix[4])
-# print(s.describe()ix['25%'])
-
+'''
+离散程度
+极差、方差、标准差
+'''
+# 计算极差
+sub = data['sepal_length'].max() - data['sepal_length'].min()
+# 计算方差
+var = data['sepal_length'].var()
+# 计算标准差
+std = data['sepal_length'].std()
+print(sub, var, std)
